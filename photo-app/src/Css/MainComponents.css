@@ -1,0 +1,22 @@
+/*Header and Footer style*/
+.headerTitle{
+    color: white;
+}
+
+.header {
+    background-color: #282c34;
+    color: #ffffff;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  nav ul .navLinks{
+    margin: 0 10px;
+    color: #f3f3f3;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+}
