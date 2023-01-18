@@ -8,7 +8,7 @@ import Container from 'react-bootstrap/Container';
 
 function Header (){
     return(
-        <Container className="header">
+        <Container fluid className="header">
             <h1 className="headerTitle">PhotoLens</h1>
             <nav>
                 <ul>

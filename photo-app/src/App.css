@@ -6,3 +6,12 @@
 .App {
   text-align: center;
 }
+
+.main {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.mainImage{
+  width: 100%;
+}
