@@ -5,15 +5,35 @@ import Container from "react-bootstrap/esm/Container";
 
 import MainImage from "../photos/mainBackground.jpeg"
 
+import SpringImage from "../photos/springtree.jpg"
+import SummerImage from "../photos/summertree.jpg"
+import AutumnImage from "../photos/Autumn.jpg"
+import WinterImage from "../photos/winter.jpeg"
+
+import MainGrid from "../components/Layout/MainGrid";
+
 function Home(){
     const mainPageContent={
         mainBackground: MainImage,
+        mainTitle: "One click to save a beautiful memory!",
+        mainWeatherImages: [
+            SpringImage, SummerImage, AutumnImage, WinterImage
+        ]
     }
-    const [mainImages, setImages] = useState(mainPageContent)
+    const [mainContent, setContent] = useState(mainPageContent)
+   
 
     return(
         <Container fluid className="main">         
-            <img className="mainImage" src={mainImages.mainBackground} alt="background" />
+            <img className="mainImage" src={mainContent.mainBackground} alt="background" />
+            <h1 className="mainTitle">{mainContent.mainTitle}</h1>
+            <div className="mainVerticalImages">
+                {
+                mainContent.mainWeatherImages.map(im => <img className="gridImage" src={im} alt={im} />)
+                }
+            </div>
+            <div className="spaceBackground"></div>
+            <MainGrid></MainGrid>
         </Container>
     );
 }

@@ -10,8 +10,20 @@
 .main {
   padding: 0 !important;
   margin: 0 !important;
+  position: relative;
+  z-index: 1;
 }
 
 .mainImage{
   width: 100%;
+}
+
+.mainTitle{
+  position: absolute;
+  top: 30%;
+  bottom: 30%;
+  width: 100%;
+  color: rgb(239, 237, 237);
+  font-size: 50px;
+  text-align: center;
 }
