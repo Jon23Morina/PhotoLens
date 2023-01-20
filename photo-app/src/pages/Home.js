@@ -24,14 +24,16 @@ function Home(){
    
 
     return(
-        <Container fluid className="main">         
-            <img className="mainImage" src={mainContent.mainBackground} alt="background" />
-            <h1 className="mainTitle">{mainContent.mainTitle}</h1>
-            <div className="mainVerticalImages">
-                {
-                mainContent.mainWeatherImages.map(im => <img className="gridImage" src={im} alt={im} />)
-                }
-            </div>
+        <Container fluid className="main">
+            <Container fluid className="mainBlock">            
+                <img className="mainImage" src={mainContent.mainBackground} alt="background" />
+                <h1 className="mainTitle">{mainContent.mainTitle}</h1>
+                <div className="mainVerticalImages">
+                    {
+                    mainContent.mainWeatherImages.map(im => <img className="gridImage" src={im} alt={im} />)
+                    }
+                </div>
+            </Container>         
             <div className="spaceBackground"></div>
             <MainGrid></MainGrid>
         </Container>

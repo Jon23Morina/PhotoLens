@@ -14,14 +14,21 @@
   z-index: 1;
 }
 
+.mainBlock{
+  padding: 0px !important;
+  margin: 0px !important;
+  width: 100%;
+  position: relative;
+}
+
 .mainImage{
   width: 100%;
 }
 
 .mainTitle{
   position: absolute;
-  top: 30%;
-  bottom: 30%;
+  top: 20%;
+  bottom: 20%;
   width: 100%;
   color: rgb(239, 237, 237);
   font-size: 50px;
