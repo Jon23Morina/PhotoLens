@@ -68,6 +68,10 @@ nav ul{
     box-shadow: -20px 14px 10px #5a5a5a;
 }
 
+.mainGrid{
+     margin-bottom: 100px;
+}
+
 .mainGrid h3, h4{
     text-align: right;
     text-decoration: underline;
@@ -76,4 +80,44 @@ nav ul{
 
 .mainGrid h3{
     margin-top: 100px;
+}
+
+.quoteImage{
+    position: relative;
+    width: 80% !important;
+    margin: 100px auto !important;
+    padding: 0 !important;
+    z-index: 2 !important;
+}
+
+.quoteImage img{
+    width: 100%;
+    box-shadow: -10px 10px 10px #5a5a5a;
+}
+
+.quoteImage .quote{
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    width: 100% !important;
+    height: 100%;
+    color: rgb(246, 245, 245);
+    background-color: rgba(20, 17, 17, 0.785) !important;
+    display: flex;
+    align-items: center;
+}
+
+.quote blockquote{
+    display: block;
+    font-size: 24px;
+    width: 50%;
+    margin: 100px auto;
+}
+
+.quote h2{
+    display: block;
+    font-size: 45px;
+    margin: 100px auto;
 }

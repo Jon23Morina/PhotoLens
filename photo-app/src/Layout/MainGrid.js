@@ -3,12 +3,12 @@ import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-import MainBoat from '../../photos/mainGrid-boat.jpg'
-import MainTrain from '../../photos/mainGrid-train.jpg'
-import MainBird from '../../photos/mainGrid-bird.jpg'
-import MainLake from '../../photos/mainGrid-Lake.jpg'
-import MainSimple from '../../photos/mainGrid-simple.jpg'
-import MainCrowd from '../../photos/mainGrid-crowd.jpg'
+import MainBoat from '../photos/mainGrid-boat.jpg'
+import MainTrain from '../photos/mainGrid-train.jpg'
+import MainBird from '../photos/mainGrid-bird.jpg'
+import MainLake from '../photos/mainGrid-Lake.jpg'
+import MainSimple from '../photos/mainGrid-simple.jpg'
+import MainCrowd from '../photos/mainGrid-crowd.jpg'
 
 function MainGrid() {
   return (

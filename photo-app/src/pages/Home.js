@@ -12,9 +12,10 @@ import SpringImage from "../photos/springtree.jpg"
 import SummerImage from "../photos/summertree.jpg"
 import AutumnImage from "../photos/Autumn.jpg"
 import WinterImage from "../photos/winter.jpeg"
+import Book from "../photos/Book.jpeg"
 
 //Components Importations
-import MainGrid from "../components/Layout/MainGrid";
+import MainGrid from "../Layout/MainGrid";
 
 
 function Home(){
@@ -46,6 +47,16 @@ function Home(){
             </Container>         
             <div className="spaceBackground"></div>
             <MainGrid></MainGrid>
+            <Container fluid className="quoteImage">
+                    <img src={Book} alt={Book} />
+                    <div className="quote">
+                        <div>
+                            <h2>HEY YOU BEAUTIFUL HUMAN!</h2>
+                        <blockquote>If you're looking for something a little off the beaten path, you're in the right place. Let's create something beautiful, and uniquely memorable.</blockquote> 
+                        </div>
+                        
+                    </div>
+            </Container>
         </Container>
     );
 }
