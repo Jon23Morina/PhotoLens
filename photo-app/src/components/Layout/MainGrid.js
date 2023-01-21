@@ -14,19 +14,21 @@ function MainGrid() {
   return (
     <Container fluid className='mainGrid'>
         <Row>
-            <Col><img className='GridImages' src={MainBoat} alt="" /></Col>
-            <Col><img className='GridImages' src={MainTrain} alt="" /></Col>
+            <Col><img className='GridImages' src={MainBoat} alt={MainBoat} /></Col>
+            <Col><img className='GridImages' src={MainTrain} alt={MainTrain} /></Col>
         </Row>
         <br /><br /><br />
         <Row>
-            <Col><img className='GridImages' src={MainBird} alt="" /></Col>
-            <Col><img className='GridImages' src={MainLake} alt="" /></Col>
+            <Col><img className='GridImages' src={MainBird} alt={MainBird} /></Col>
+            <Col><img className='GridImages' src={MainLake} alt={MainLake} /></Col>
         </Row>
         <br /><br /><br />
         <Row>
-            <Col><img className='GridImages' src={MainSimple} alt="" /></Col>
-            <Col><img className='GridImages' src={MainCrowd} alt="" /></Col>
+            <Col><img className='GridImages' src={MainSimple} alt={MainSimple} /></Col>
+            <Col><img className='GridImages' src={MainCrowd} alt={MainCrowd}/></Col>
         </Row>
+        <h3>Some beautiful pictures that were captured.</h3>
+        <h4>, John Doe</h4>
     </Container>
   )
 }
